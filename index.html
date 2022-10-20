@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="styles/style.css" rel="stylesheet">
+		<meta charset="utf-8">
+		<title>課題</title>
+	</head>
+	<body>
+		<div id="head">
+			<h1>日本大学文理学部情報科学科 Webプログラミングの演習課題</h1>
+			<h3>5421071 石川翼</h3>
+		</div>
+		<!--1-->
+		<h2>&lt;q&gt;</h2>
+		<h3>説明</h3>
+		<p>この要素は囲まれたテキストが引用文または転載文であることを示すタグです。<br>具体的には&lt;q&gt;~&lt;/q&gt;で囲まれたテキストにダブルクォーテーションをつけることができる。</p>
+		<h3>使用例</h3>
+		<p>&lt;p&gt;&lt;q&gt;ダブルクォーテーション&lt;/q&gt;は引用文や転載文につける。&lt;/p&gt;</p>
+		<h3>動作結果</h3>
+		<p><q>ダブルクォーテーション</q>は引用文や転載文につける。</p>
+		<hr>
+
+		<!--2-->
+		<h2>&lt;i&gt;</h2>
+		<h3>説明</h3>
+		<p>この要素は文字のフォントをイタリックにすることができる。</p>
+		<p>使い方としては&lt;i&gt;~&lt;/i&gt;で囲んだ文字のフォントがイタリックになる。</p>
+		<h3>使用例</h3>
+		<p>日本語の場合<br>&lt;p&gt;文字のフォントが&lt;i&gt;イタリック&lt;/i&gt;になる&lt;/p&gt;</p>
+		<p>英語の場合<br>&lt;p&gt;The font of the text is &lt;i&gt;italicized&lt;/i&gt;.&lt;/p&gt;</p>
+		<h3>動作結果</h3>
+		<p>日本語の場合<br>文字のフォントが<strong><i>イタリック</i></strong>になる</p>
+		<p>英語の場合<br>The font of the text is <strong><i>italicized</i></strong>.</p>
+		<hr>
+
+		<!--3-->
+		<h2>&lt;bdo&gt;</h2>
+		<h3>説明</h3>
+		<p>この要素は文字の方向を変えることができる。<br>&lt;p&gt;~&lt;/p&gt;要素は左から右に文字が書かれるが、<br>&lt;bdo&gt;~&lt;/bdo&gt;要素では文字を右から左に書かれるようにするか左から右に書かれるようにするか選ぶことができる。</p>
+		<p>使い方としては、&lt;bdo dir=<q>方向選択</q>&gt;内容&lt;/bdo&gt;の形で使う。<br>ここで<q>方向選択</q>とは左から右に文字を書きたいときは<q>ltr</q>、右から左に文字を書きたいときは<q>rtl</q>と記入する。</p>
+		<h3>使用例</h3>
+		<p>左から右に文字を書く場合<br>&lt;bdo dir=<q>ltr</q>&gt;かきくけこ&lt;/bdo&gt;</p>
+		<p>右から左に文字を書く場合<br>&lt;bdo dir=<q>rtl</q>&gt;かきくけこ&lt;/bdo&gt;</p>
+		<h3>動作結果</h3>
+		<p>左から右に文字を書く場合<br><bdo dir="ltr">かきくけこ</bdo></p>
+		<p>右から左に文字を書く場合<br><bdo dir="rtl">かきくけこ</bdo></p>
+	</body>
+
+</html>
